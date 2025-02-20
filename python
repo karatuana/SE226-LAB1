@@ -1,0 +1,32 @@
+print("Question1")
+print("----------------")
+name = input("What is your name? ")
+print("Hello " + name + ".")
+# Get student id
+studentId = input("What is your student ID? ")
+# Print the student ID
+print("Your ID is " + studentId + ".")
+
+print("Question2")
+print("----------------")
+var1 = float(input("Enter first number: "))
+var2 = float(input("Enter second number: "))
+sum_result = var1 + var2
+diff_result = var1 - var2
+prod_result = var1 * var2
+print(f"var1: {var1}, var2: {var2}, sum: {sum_result}, difference: {diff_result}, product: {prod_result}")
+
+print("Question3")
+print("----------------")
+
+student_name = input("Enter student name: ")
+lab_grade = float(input("Enter Lab grade: "))
+midterm_grade = float(input("Enter Midterm grade: "))
+final_grade = float(input("Enter Final grade: "))
+last_score = (lab_grade * 0.25) + (midterm_grade * 0.35) + (final_grade * 0.40)
+print(f"Name: {student_name}\nLab: {lab_grade}\nMidterm: {midterm_grade}\nFinal: {final_grade}\nLast Score: {last_score}")
+
+
+print("Question4")
+print("----------------")
+print("*\n**\n***\n**\n*")
